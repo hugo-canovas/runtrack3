@@ -17,7 +17,6 @@ function start(){
 
 $('#start').click(() => start());
 
-
 function handleClick(id) {
     checkTab.push($(`#${id}`));
     $(`#${id}`).remove();
@@ -44,7 +43,6 @@ $('#3').click(() => handleClick(3));
 $('#4').click(() => handleClick(4));
 $('#5').click(() => handleClick(5));
 $('#6').click(() => handleClick(6));
-
 
 function isEqual(arcCiel, checkTab){
     let isEqual = true;

@@ -13,12 +13,7 @@
 
     
     <div id="gameCheck">
-        <!-- <img src="./img/arc1.png" alt="" id ="7" class="hide">
-        <img src="./img/arc2.png" alt="" id ="8" class="hide">
-        <img src="./img/arc3.png" alt="" id ="9" class="hide">
-        <img src="./img/arc4.png" alt="" id ="10" class="hide">
-        <img src="./img/arc5.png" alt="" id ="11" class="hide">
-        <img src="./img/arc6.png" alt="" id ="12" class="hide"> -->
+        
     </div>
     
     <div id="game">
