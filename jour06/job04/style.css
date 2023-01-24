@@ -1,0 +1,35 @@
+.classique{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+}
+.burger{
+    display: none;
+    justify-content: center;
+    width: 100%;
+}
+.dropdown i{
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.dropdown-content{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 140px;
+    border: 0.5px solid;
+}
+.dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content-right{
+    display: flex;
+}
+
+@media screen and (max-width:767px) {
+    .burger{
+        display:flex;
+    }
+    .classique{
+        display: none;
+    }
+}

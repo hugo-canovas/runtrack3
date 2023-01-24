@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    background-color: #88c1d0;
+    height: 200px;
+    width: 380px;
+}
+
+@media screen and (min-width:768px) and (max-width:1599px) {
+    .content{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width:1600px) {
+    .container{
+        flex-direction: row;
+    }
+    .content{
+        flex-direction: row;
+        gap:20px;
+    }
+}
+
+
