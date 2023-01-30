@@ -14,10 +14,7 @@
     <form action="index.html" method="get">
         <input type="text" id="id" value="" placeholder="id">
         <input type="text" placeholder="nom">
-        <!-- <select name="type" value="">
-
-        </select> -->
-        <input id="filter" type="button" value="Recherchez">
+        <input id="filter" type="button"  value="Recherchez">
     </form>
 
     <script src="./script.js"></script>

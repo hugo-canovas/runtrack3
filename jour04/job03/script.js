@@ -1,18 +1,20 @@
 let tab = []
+let button = document.getElementById('filter');
+
+button.addEventListener('click', function search(){
+    let id = document.getElementById('id').value;
+    if(id != ""){
+       fetch('pokemon.json')
+        .then((response) => response.json())
+        .then((response) => { 
+            let getPoke = response[id-1];
+            console.log(getPoke)
+        })
+        .catch((error) => console.log(error)) 
+    }else{
+        console.log("pas d'entré");
+    }
+});
 
 
-function search(id){
-    fetch('pokemon.json')
-    .then((response) => response.json())
-    .then((response) => {  
-        for(const x in response){
-            console.log(x)
-            // tab.push(x)
-        }
-        // console.log(tab[id])
-        // console.log(tab[id].name["english"])
-    })
-    .catch((error) => console.log(error))
-}
 
-search(3)
